@@ -6,6 +6,10 @@ https://templatemo.com/tm-556-catalog-z
 
 */
 
+body {
+    background-color: #1d1d1d;
+}
+
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -153,7 +157,7 @@ a:hover { color:#009999; }
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 .btn-primary {
-    background-color: #009999;
+    background-color: #030636cc;
     border: 0;
     border-radius: 5px;
     padding: 12px 50px 14px;
@@ -162,12 +166,12 @@ a:hover { color:#009999; }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color:#086969;
+    background-color:#181d669f;
 }
 
 .btn-primary.disabled, 
 .btn-primary:disabled {
-    background-color: #009999;
+    background-color: #181d669f;
     pointer-events: all;
     cursor: not-allowed;
 }
@@ -198,15 +202,15 @@ a:hover { color:#009999; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
 .tm-mb-90 { margin-bottom: 90px; }
-.tm-text-primary { color: #009999; }
+.tm-text-primary { color: #cccccc; }
 .tm-text-secondary { color: #CC6699; }
-a.tm-text-primary:hover { color:#666666; }
+a.tm-text-primary:hover { color:#292929; }
 .tm-bg-gray { background-color: #EEEEEE; }
 .tm-input-paging {
     width: 40px;
     border-radius: 0;
-    border: 1px solid #CCCCCC;
-    background: #f4f4f4;
+    border: 1px solid #424242;
+    background: #1f1f1fcb;
     text-align: center;
 }
 
@@ -221,7 +225,7 @@ a.tm-text-primary:hover { color:#666666; }
 
 .nav-link-1.active,
 .nav-link-1:hover {
-    border-color: #33CCFF;
+    border-color: #0b1b3b;
 }
 
 .nav-link-2.active,
@@ -263,7 +267,7 @@ a.tm-text-primary:hover { color:#666666; }
 
 .tm-search-btn {
     color: white;
-    background-color: #009999;
+    background-color: #191d58c0;
     border: none;
     width: 100px;
     height: 50px;
@@ -365,7 +369,7 @@ p, .tm-text-gray { color: #999; }
 
 .tm-paging-link:hover,
 .tm-paging-link.active {
-    background-color: #009999;
+    background-color: #1f1b38;
     color: #fff; 
 }
 
